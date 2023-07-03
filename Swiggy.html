@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Swiggy Online Order</title>
+  </head>
+  <style>
+    body {
+      margin: 0%;
+      border: 0%;
+      padding: 0%;
+      font-family: cursive;
+    }
+    .Header {
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+    .Header .left {
+      margin-top: 77px;
+    }
+    .Header .left nav img {
+      width: 24%;
+      cursor: pointer;
+      margin-right: 200px;
+    }
+    .Header .left nav {
+      display: flex;
+      justify-content: center;
+    }
+    .left nav .sign {
+      width: 110px;
+      height: 36px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .left nav .sign:hover {
+      background-color: transparent;
+      color: black;
+      border: 2px solid black;
+      font-weight: 600;
+    }
+    .left nav .log:hover {
+      color: orange;
+
+      cursor: pointer;
+    }
+    .left nav button {
+      color: black;
+      background-color: transparent;
+      border: none;
+      margin-top: 9px;
+      margin-left: 6px;
+      margin-right: 0px;
+      font-size: 17px;
+    }
+    .left .txt {
+      margin-left: 56px;
+      margin-right: 60px;
+    }
+    .Header .Header-img {
+      width: 530px;
+    }
+    .Header .left .text {
+      margin-left: 33px;
+      margin-top: 77px;
+    }
+    .left .txt h1 {
+      font-size: 39px;
+    }
+    .left .txt p {
+      margin-top: 22px;
+      font-size: 16px;
+      color: #a9abb2;
+    }
+
+    .left .txt .ipt {
+      display: flex;
+      margin-top: 33px;
+    }
+    .left .txt input {
+      width: 380px;
+      height: 36px;
+      border: 1px solid rgb(241, 76, 16);
+      border-right: none;
+      padding: 8px;
+      font-family: cursive;
+    }
+    .left .txt .ipt button {
+      width: 120px;
+      color: white;
+      background-color: rgb(241, 72, 11);
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .mid {
+      display: flex;
+      justify-content: center;
+
+      background-color: rgb(31, 16, 5);
+      text-align: center;
+      color: white;
+    }
+    .mid .pic {
+      width: 33%;
+    }
+    .last {
+      display: flex;
+      justify-content: center;
+    }
+    .last img {
+      width: 32%;
+    }
+    .last .text {
+      margin-top: 60px;
+      margin-left: 46px;
+    }
+    .last .text h1 {
+      font-size: 44px;
+      color: #282c3f;
+    }
+    .last .text img {
+      margin-top: 40px;
+      height: 50px;
+      width: 170px;
+    }
+    .Footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      justify-content: center;
+      color: white;
+      background-color: black;
+      padding-left: 44px;
+      border-bottom: 1px solid white;
+    }
+    .Footer img {
+      height: 70px;
+      width: 240px;
+      float: right;
+      border: 2px double white;
+      border-radius: 8px;
+      margin-right: 15px;
+      margin-top: 25px;
+    }
+
+    .we {
+      display: grid;
+      color: white;
+      background-color: black;
+      padding-left: 44px;
+      border-bottom: 2px solid white;
+    }
+    .city {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .Footer .about h2 {
+      color: #a9abb2;
+    }
+  </style>
+  <body>
+    <div class="Header">
+      <div class="left">
+        <nav>
+          <img src="image/Swiggy.png" alt="" />
+          <div class="btn">
+            <button class="log"><b>Log-in</b></button>
+            <button class="sign"><b>Sign up</b></button>
+          </div>
+        </nav>
+        <div class="txt">
+          <h1>Late Night at Office ?</h1>
+          <p class="para">
+            Order food from your favorite Restaurantd near you.
+          </p>
+          <div class="ipt">
+            <input type="text" placeholder="Enter Your Delivery Location" />
+            <button>Find Food</button>
+          </div>
+          <p style="color: #282c3f"><b>Popular Cities in India</b></p>
+          <p>
+            Trichy Chennai Bangalore Mumbai Kolkata Hyderbad Darjeeling Delhi
+            Ahmedabad Gurgoan & More
+          </p>
+        </div>
+      </div>
+      <img src="image/pexels-farhad-ibrahimzade-8697517.jpg" alt="" />
+    </div>
+    <div class="mid">
+      <div class="pic">
+        <img src="image/Live Track 2.png" alt="" />
+        <h3>No Minimum Order</h3>
+        <p>
+          Order in for yourself or for the group, with no restriction on order
+          value
+        </p>
+      </div>
+      <div class="crd">
+        <img src="image/Live Track 1.png" alt="" />
+        <h3>Live Order Tracking</h3>
+        <p>
+          Know where your order is at all times, from the restaurant to your
+          doorstep
+        </p>
+      </div>
+      <div class="crd">
+        <img src="image/Live Track 3.png" alt="" />
+        <h3>Lighting-Fast Delivery</h3>
+        <p>
+          Experience Swiggy's superfast delivery for food delivered fresh & on
+          time
+        </p>
+      </div>
+    </div>
+    <div class="last">
+      <div class="text">
+        <h1>Restaurants in your Pocket</h1>
+        <p>
+          Order from your favorite restaurants & track on the go, with all-new
+          Swiggy app
+        </p>
+        <img src="image/iOS_ajgrty.png" alt="" />
+        <img src="image/play_ip0jfp.png" alt="" />
+      </div>
+      <img src="image/pixel_wbdy4n.png" />
+      <img src="image/iPhone_wgconp_j0d1fn.png" />
+    </div>
+    <div class="Footer">
+      <div class="about">
+        <h2><b>Company</b></h2>
+        <p>About us</p>
+        <p>Team</p>
+        <p>Careers</p>
+        <p>Swiggy Blo</p>
+      </div>
+      <div class="about">
+        <h2><b>Contact</b></h2>
+        <p>Help & Support</p>
+        <p>Partner with us</p>
+        <p>Ride with us</p>
+      </div>
+      <div class="about">
+        <h2><b>Legal</b></h2>
+        <p>Terms & Conditions</p>
+        <p>Refund & Cancellation</p>
+        <p>Privacy Policy</p>
+        <p>Cookie Policy</p>
+      </div>
+      <div>
+        <img src="image/iOS_ajgrty.png" />
+        <img src="image/play_ip0jfp.png" />
+      </div>
+    </div>
+    <div class="we">
+      <h3 style="color: #a9abb2"><b>We Deliver to</b></h3>
+      <div class="city">
+        <p>Agartala</p>
+        <p>Agra</p>
+        <p>Ahmedabad</p>
+        <p>Alappuzha</p>
+        <p>Bandra</p>
+        <p>Bangalore</p>
+        <p>Bareilly</p>
+        <p>Bhubaneswar</p>
+        <p>Central-Goa</p>
+        <p>Chennai</p>
+        <p>Chidambaram</p>
+        <p>Coimbatore</p>
+        <p>Cuddalore</p>
+        <p>Darjeeling</p>
+        <p>Delhi</p>
+        <p>Dharmapuri</p>
+        <p>Dindigul</p>
+        <p>Erode</p>
+        <p>Faridabad</p>
+        <p>Gurgoan</p>
+        <p>Guwahati</p>
+        <p>Gwalior</p>
+        <p>Haridwar</p>
+        <p>Kolkata</p>
+        <p>Madurai</p>
+        <p>Mumbai</p>
+        <p>Punjab</p>
+        <p>Trichy</p>
+      </div>
+    </div>
+  </body>
+</html>
